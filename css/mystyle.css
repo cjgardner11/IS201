@@ -1,0 +1,42 @@
+body{
+  background-color: aliceblue;
+  color: slategrey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 3px solid black;
+  padding: 20px;
+  margin: 20px;
+  text-align: left;
+}
+.common{
+  font-size: 25px;
+  list-style-position: inside;
+}
+#top{
+  text-decoration: underline;
+}
+
+ol{
+  list-style-position: inside;
+}
+.container{
+  width: 250px;
+  height: 250px;
+}
+
+nav{
+  background-color: lightgrey;
+  padding: 10px;
+  overflow: hidden;
+}
+nav a{
+  float: left;
+  color: black;
+  padding: 10px 13px;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a: hover{
+  background-color: whitesmoke;
+}
